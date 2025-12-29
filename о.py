@@ -31,7 +31,7 @@ def init_database():
 
 database = {}
 
-BOT_TOKEN = '8407223370:AAFQh9_Z5nTNwCfkXh9j3gjwUTl667ZZxVs'
+BOT_TOKEN = ''
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
 class SELECT(StatesGroup):
